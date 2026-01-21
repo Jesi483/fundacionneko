@@ -1,0 +1,32 @@
+@use '../utilities/variables';
+header{
+    background-color: variables.$color-fondo;
+    display: flex;
+    padding: 20px 5px;
+    flex-direction: column;
+    nav {
+        ul  {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            li a{
+                display: flex;
+                font-size: 16px;
+                text-decoration: none;
+                color: darkred;
+                padding: 10px;
+                &:hover{
+                    background-color: aliceblue;
+                    color: black;
+                }
+            }
+        }
+    }
+    h1{
+        text-align: center;
+    }
+    .link2{
+        margin-bottom: 20px;
+        text-align: right;
+    }
+}
