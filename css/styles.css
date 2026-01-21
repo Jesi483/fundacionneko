@@ -14,7 +14,7 @@ body {
   justify-content: center;
 }
 .ester4 .ester3 {
-  width: 40%;
+  width: 55%;
   margin: 70px;
 }
 
@@ -97,10 +97,6 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .ester3 {
-    width: 90%;
-    margin: 20px;
-  }
 }
 @media (max-width: 720px) {
   .cuerpo {
@@ -127,4 +123,4 @@ footer {
   max-width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
