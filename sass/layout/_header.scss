@@ -1,9 +1,9 @@
 @use '../utilities/variables';
+@use '../utilities/mixins' as*;
 header{
+    @include flex;
     background-color: variables.$color-fondo;
-    display: flex;
     padding: 20px 5px;
-    flex-direction: column;
     nav {
         ul  {
             list-style: none;
@@ -23,7 +23,7 @@ header{
         }
     }
     h1{
-        text-align: center;
+        @include text-a;
     }
     .link2{
         margin-bottom: 20px;

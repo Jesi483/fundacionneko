@@ -19,10 +19,10 @@ body {
 }
 
 header {
-  background-color: #f5b8f5;
   display: flex;
-  padding: 20px 5px;
   flex-direction: column;
+  background-color: #f5b8f5;
+  padding: 20px 5px;
 }
 header nav ul {
   list-style: none;
@@ -50,8 +50,8 @@ header .link2 {
 
 main {
   display: flex;
-  background-color: #f7f7f7;
   flex-direction: column;
+  background-color: #f7f7f7;
 }
 main h2 {
   text-align: center;
@@ -59,12 +59,13 @@ main h2 {
 }
 main section {
   text-align: justify;
+  padding: 30px;
 }
 
 footer {
   display: flex;
-  background-color: #f0aedf;
   flex-direction: column;
+  background-color: #f0aedf;
 }
 
 .videocat {
@@ -84,7 +85,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 30px;
 }
 .cuerpo .ester2 {
   width: 86%;

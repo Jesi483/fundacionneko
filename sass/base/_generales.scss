@@ -1,4 +1,4 @@
+@use '../utilities/mixins' as*;
 body{
-    display: flex;
-    flex-direction: column;
+    @include flex;
 }

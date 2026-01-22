@@ -1,12 +1,14 @@
+@use '../utilities/variables';
+@use '../utilities/mixins' as*;
 main{
-    display: flex;
-    background-color: #f7f7f7;
-    flex-direction: column;
+    @include flex;
+    background-color: variables.$color-1;
     h2{
-        text-align: center;
+        @include text-a;
         text-decoration: underline;
     }
     section{
         text-align:justify;
+        @include pad;
     }
 }

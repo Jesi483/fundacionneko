@@ -1,5 +1,6 @@
+@use '../utilities/variables';
+@use '../utilities/mixins' as*;
 footer{
-    display: flex;
-    background-color: #f0aedf;
-    flex-direction: column;
+    @include flex; 
+    background-color: variables.$color-2;
 }

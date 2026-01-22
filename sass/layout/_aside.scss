@@ -1,6 +1,6 @@
+@use '../utilities/mixins' as*;
 .mapa{
-    display: flex;
-    justify-content: center;
+    @include flex-just;
     max-width: 100%;
     main iframe {
         width: 100%;
