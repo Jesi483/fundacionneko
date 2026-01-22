@@ -69,7 +69,9 @@ footer {
 }
 
 .videocat {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .cat1 {
