@@ -1,8 +1,10 @@
 @use '../utilities/mixins' as*;
 .videocat{
     @include flex-just;
+    @include pad;
     max-width: 100%;
 }
 .cat1{
     @include text-a;
+    @include pad;
 }
