@@ -23,6 +23,7 @@ header {
   flex-direction: column;
   background-color: #f5b8f5;
   padding: 20px 5px;
+  border-radius: 95px;
 }
 header nav ul {
   list-style: none;
@@ -35,13 +36,18 @@ header nav ul li a {
   text-decoration: none;
   color: darkred;
   padding: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 header nav ul li a:hover {
   background-color: aliceblue;
   color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
 }
 header h1 {
   text-align: center;
+  padding: 20px;
 }
 header .link2 {
   margin-bottom: 20px;
@@ -57,27 +63,31 @@ main h2 {
   text-align: center;
   text-decoration: underline;
 }
-main section {
-  text-align: justify;
-  padding: 30px;
+main .esqcat2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+p {
+  width: 70%;
 }
 
 footer {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  align-items: center;
   background-color: #f0aedf;
 }
 
 .videocat {
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
   max-width: 100%;
-}
-
-.cat1 {
-  text-align: center;
-  padding: 30px;
 }
 
 .cuerpo {
@@ -89,7 +99,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
 }
 .cuerpo .ester2 {
   width: 86%;
@@ -123,13 +133,47 @@ footer {
   width: 100%;
 }
 
+.items1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .minino {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .blanquito {
   max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding: 20px;
+}
+
+.michi1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.michi2 {
+  text-align: center;
+  align-items: center;
+}
+
+.michi3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

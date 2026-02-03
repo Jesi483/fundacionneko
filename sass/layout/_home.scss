@@ -1,6 +1,11 @@
 @use '../utilities/mixins' as*;
+.items1 {
+    @include flex;
+    @include align;
+}
 .minino{
     @include flex-just;
+    @include text-a;
 }
 .blanquito{
     max-width: 100%;

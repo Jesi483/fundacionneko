@@ -1,0 +1,21 @@
+@use '../utilities/mixins' as*;
+h3 {
+    @include text-a;
+}
+h4 {
+    @include text-a;
+    @include pad;
+}
+.michi1 {
+    @include flex-just;
+    @include pad;
+}
+.michi2 {
+    @include text-a;
+    @include align;
+}
+.michi3 {
+    @include flex;
+    @include align;
+    @include pad;
+}

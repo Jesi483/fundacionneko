@@ -4,6 +4,7 @@ header{
     @include flex;
     background-color: variables.$color-fondo;
     padding: 20px 5px;
+    border-radius: 95px;
     nav {
         ul  {
             list-style: none;
@@ -15,15 +16,20 @@ header{
                 text-decoration: none;
                 color: darkred;
                 padding: 10px;
+                background-color: white;
+                border-radius: 10px;
                 &:hover{
                     background-color: aliceblue;
                     color: black;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 10px grey;
                 }
             }
         }
     }
     h1{
         @include text-a;
+        @include pad;
     }
     .link2{
         margin-bottom: 20px;

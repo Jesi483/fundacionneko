@@ -3,12 +3,17 @@
 main{
     @include flex;
     background-color: variables.$color-1;
-    h2{
+    h2 {
         @include text-a;
         text-decoration: underline;
     }
-    section{
-        text-align:justify;
-        @include pad;
+    .esqcat2 {
+        @include flex;
+        @include align;
+        @include text-a;
+        padding: 20px 10px;
     }
+}
+p {
+    width: 70%;
 }
