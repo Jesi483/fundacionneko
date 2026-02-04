@@ -1,11 +1,7 @@
 @use '../utilities/mixins' as*;
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     nav ul {
         @include flex; 
         @include align;
-    }
-        .ester3{
-        width: 90%;
-        margin: 20px;
     }
 }

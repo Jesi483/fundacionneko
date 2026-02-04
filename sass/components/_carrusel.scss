@@ -1,6 +1,7 @@
 @use '../utilities/mixins' as*;
 .ester4{
     @include flex-just;
+    max-width: 100%;
     .ester3{
         width: 40%;
         margin: 70px;

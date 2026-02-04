@@ -12,6 +12,7 @@ body {
 .ester4 {
   display: flex;
   justify-content: center;
+  max-width: 100%;
 }
 .ester4 .ester3 {
   width: 40%;
@@ -106,15 +107,11 @@ footer {
   margin: 20px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .ester3 {
-    width: 90%;
-    margin: 20px;
   }
 }
 @media (max-width: 720px) {
