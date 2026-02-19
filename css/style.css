@@ -29,14 +29,18 @@ header {
 header nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 header nav ul li a {
   display: flex;
-  font-size: 16px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
   text-decoration: none;
   color: darkred;
-  padding: 10px;
+  margin: 15px;
+  padding: 7px;
+  width: 140px;
   background-color: white;
   border-radius: 10px;
 }
@@ -49,10 +53,6 @@ header nav ul li a:hover {
 header h1 {
   text-align: center;
   padding: 20px;
-}
-header .link2 {
-  margin-bottom: 20px;
-  text-align: right;
 }
 
 main {
@@ -72,7 +72,10 @@ main .esqcat2 {
   padding: 20px 10px;
 }
 
-p {
+.origen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 70%;
 }
 
@@ -82,6 +85,33 @@ footer {
   padding: 20px;
   align-items: center;
   background-color: #f0aedf;
+}
+
+.cuerpoadopcion {
+  background-color: rgb(231, 148, 192);
+}
+.cuerpoadopcion .adopcionescat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px;
+  text-align: center;
+}
+.cuerpoadopcion .adopcionescat .img1 {
+  width: 40%;
+  height: 400px;
+  border-radius: 30px;
+}
+.cuerpoadopcion .adopcionescat .adopt1 {
+  background-color: antiquewhite;
+  border-radius: 5%;
+  justify-content: space-around;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .videocat {
@@ -107,20 +137,21 @@ footer {
   margin: 20px;
 }
 
-@media (max-width: 550px) {
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.boton {
+  background-color: rgb(245, 144, 245);
+  border-radius: 10px;
+  border-color: rgb(245, 144, 245);
+  font-size: 19px;
+  padding: 4px;
 }
-@media (max-width: 720px) {
-  .cuerpo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.boton:hover {
+  background-color: rgb(247, 247, 247);
+  color: rgb(24, 23, 23);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(14, 13, 13);
+  border-color: aliceblue;
 }
+
 .mapa {
   display: flex;
   justify-content: center;
@@ -171,6 +202,33 @@ h4 {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+}
+
+@media (max-width: 550px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 720px) {
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 890px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .adopcionescat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

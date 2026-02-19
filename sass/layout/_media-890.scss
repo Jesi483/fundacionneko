@@ -1,0 +1,12 @@
+@use '../utilities/mixins' as*;
+@media (max-width: 890px) {
+    nav ul {
+        @include flex; 
+        @include align;
+    }
+    .adopcionescat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
