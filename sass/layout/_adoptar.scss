@@ -7,15 +7,13 @@
         margin: 25px;
         @include text-a;
         .img1{
-            width: 40%;
-            height: 400px;
             border-radius: 30px;
         }
         .adopt1{
             background-color: antiquewhite;
-            border-radius: 5%;
+            border-radius: 25%;
             justify-content: space-around;
-            width: 40%;
+            margin: 20px;
             padding: 10px;
             @include flex;
             @include align;
