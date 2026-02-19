@@ -3,7 +3,6 @@
     background-color: rgb(231, 148, 192);
     .adopcionescat {
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
         margin: 25px;
         @include text-a;
